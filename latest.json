@@ -1,11 +1,11 @@
 {
-  "version": "1.0.13",
-  "notes": "【新增】\n\n• 每日签到（积分商店顶部）：像素日历，每天签到 +200 积分；连续签到 5 天起每天再随机 +10～200；本月累计签到满 1 / 3 / 7 / 14 天和全勤各有一次奖励（+20 / +50 / +100 / +200 / +500）。签到后在今天那格敲一枚宝可梦印章（黑白像素头像），停一会儿日历自动收起；今天已签到时只显示一行，点「展开日历」再看。签到记录按账号分开存，跟着数据备份走。\n\n【调整】\n\n• 图鉴特性改成原地展开：点特性直接在下面显示完整说明，再点收起，不再弹出面板。\n• 地区图鉴小标：首页「收集进度」里城都 / 丰缘 / 合众（游戏本身没有来源标记）改用和图鉴筛选同一套像素图标，不再空着。\n• 训练家头像：设置 › 账号里选头像的网格和上方大图显示全身立绘，右上角头像和训练家面板只显示头部。\n• 最新活动（仅 Windows）：正在进行的活动按开始时间从新到旧排，2 天内结束的标「快结束」；持续 30 天以上的单独归到最下面的「常驻活动」，默认不提醒，快结束时才提醒。每条活动和启动提醒弹窗里都多了「不再提醒」，点了以后不再弹、列表里那条变灰（可恢复）。去掉了没有活动的「传阿」「剑盾」页签（以后百科上有它们的活动会自动出现）。\n• 国内下载优先走镜像：检查更新先读 jsDelivr 镜像的清单（GitHub 兜底）；下载安装包先走 GitHub 加速代理，都不通才直连 GitHub（安装包签名照样校验）。「朱紫活动日历 › 更新活动」也改成先读镜像。",
-  "pub_date": "2026-11-13T03:24:26.247Z",
+  "version": "1.0.14",
+  "notes": "【新增】\n\n• 功能页一键加计数卡：剑盾咖喱地图、剑盾钓鱼地图、可孵特殊宝可梦、朱紫大量出现地图、朱紫活动日历 / 最新活动的大量出现、抖抖怪视频攻略里的宝可梦旁边都有「＋计数卡」，直接加到对应作品的计数板块（咖喱 / 钓鱼会记下地点，孵蛋按作品分，朱紫加到料理）。\n• 浓雾证联动：从「朱紫刷证指南 › 浓雾证刷法」加的计数卡，目标证章自动带上浓雾之证。\n• 计数卡回到地图：计数卡左上角的「图」键跳回对应地图并高亮这只（咖喱 / 钓鱼地图、传阿定点头目地图、头目刷法、朱紫大量出现地图、大冒险神兽）。\n• 计数卡 ↔ 闪率查询：计数卡左上角的「率」键把次数带进该作品的闪率查询，直接看累计把握；闪率查询里也能点一张计数卡把次数带进来。\n\n【调整】\n\n• 剑盾咖喱 / 钓鱼计数卡改成「地点 + 宝可梦」：先选地点再选宝可梦，候选只列这个地点能刷的，并标出等级、出现率和剑 / 盾限定；卡片和面板上直接显示地点。\n• 剑盾咖喱的目标证章固定为咖喱之证（只能改数量）；钓鱼默认上钩之证，可以改，可选列表里去掉了咖喱之证、命运之证和体型证。\n• 功能页按作品筛选：选了某个作品后，该作品的功能排在最上面（「抖抖怪视频攻略大全」这类跨作品功能也归进去），通用功能放在下面。\n• 去掉全局搜索（仅 Windows）：右上角的放大镜按钮和 Ctrl+K 搜索框删掉了，快捷导航里的「全局搜索」也一并去掉。\n• 左栏筛选面板（仅 Windows）：「作品筛选」下拉框、搜索框和上面的标题带、按钮左右对齐；不同的筛选分组之间用虚线隔开。\n• 最新活动（仅 Windows）：顶部页签之间拉开距离，和下面的「更新活动 / 订阅」按钮也隔开。\n• 朱紫野餐模拟（仅 Windows）：弹窗几乎铺满窗口，里面的文字、按钮、食材图标整体放大。\n• 剑盾咖喱宝可梦地图：用法说明挪到地图右上角；搜索框加宽，和上面的版本按钮隔开。\n\n【修复】\n\n• 朱紫大量出现地图：地图的放大 / 缩小 / 复位按钮跑到了地图下方竖排，改回地图右下角横排。\n• 功能页 Z-A：左栏写着 3 个功能，右边 Z-A 分组里只有 2 个（视频攻略大全在通用里）。",
+  "pub_date": "2026-11-13T08:12:31.381Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUbklwNkJIMGR4WWpqUTdaeTk4bnNXQVowOHNQZ1dQY2VCbmVRcENDTXo0cWQwVHlmN3h6OHVzS2hqcTh3cFBPOTR6bUNlM3ZiMTZHakNzTUlERTNqbG1UeDN3WTRDZEE0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0NTQwMjMzCWZpbGU65a6d5Y+v56eAXzEuMC4xM194NjQtc2V0dXAuZXhlCXZlcnNpb246MS4wLjEzCnpyZHEwZmhLL0QxRHVYakdIV3FzcmZlLzQ4NVAyS0cvbGNQR2I5ektTOFRuT1ZNTWVuMHBGOEg2dlB5NDdLTEVaaUY5TmQ2a3dlNDQrVVhsMFRrMERRPT0K",
-      "url": "https://github.com/doudouguai/pokeshow-releases/releases/download/v1.0.13/pokeshow_1.0.13_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUbklwNkJIMGR4WWh3NVJvOHVEQXp3c3pLTDZjaDlybkNnQ01pNmVXT0JKb3U5U0FTRmQxeUpkUTh1VFk2ZitGQjdTU2lQcG0xVlBEQTloY1ZNVDQ0cUNmUlZzcUpzeHdvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0NTU3NTI3CWZpbGU65a6d5Y+v56eAXzEuMC4xNF94NjQtc2V0dXAuZXhlCXZlcnNpb246MS4wLjE0CmFuYlREakV2WFQ5RjYzSWd3VTE5b0tWQ3B5dkxnRlN1ZDVpSjEvM3hFbEUxeDV6c1lGaWpDUWpkUUgvNkltWThLMzhvNVlJV3UzL0hTUmxwNHBxMUFBPT0K",
+      "url": "https://github.com/doudouguai/pokeshow-releases/releases/download/v1.0.14/pokeshow_1.0.14_x64-setup.exe"
     }
   }
 }
